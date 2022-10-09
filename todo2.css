@@ -1,0 +1,183 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width: 1366px;
+    height: 769px;
+    margin: 60px;
+    background-color: #F7F7F7;
+    position: relative;
+    border: 0px solid gray;
+    box-shadow: 1px 1px 3px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 1366px;
+    height: 94px;
+    background-color: #FFFFFF;
+    position: relative;
+    border: 0px solid gray;
+    box-shadow: 0.5px 0.5px 1px gray;
+}
+#task{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: #424242;
+font-weight: bold;
+position: absolute;
+top: 23px;
+left: 137px;
+text-align: left;
+}
+#list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #00A5EC;
+    font-weight: bold;
+    position: absolute;
+    top: 23px;
+    left: 250px;
+    text-align: left;
+    }
+.add-new{
+    width: 150px;
+    height: 126px;
+    color: #424242;
+    font-size: 22px;
+    position: absolute;
+    top: 142px;
+    left: 783px;
+}
+#circleplus{
+    position: absolute;
+    top: 130px;
+    left: 718px;
+}
+
+.card-1{
+    width: 500px;
+    height: 338px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 231px;
+    left: 433px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#paris{
+    width:114px ;
+    height: 24px;
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+#check-box{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+#church{
+    width: 103px;
+    height: 21px;
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping{
+    width: 81px;
+    height: 21px;
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+#back-arrow{
+    /* width: 35px;
+    height: 35px; */
+    font-size: 35px;
+    position: absolute;
+    top: 138px;
+    left: 433px;
+    color: #424242;
+    opacity: 100%;
+}
+#back{
+    width: 46px;
+    height: 24px;
+    position: absolute;
+    top: 144px;
+    left: 478px;
+    font-size: 20px;
+
+}
+
+.cursorVisible{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+    .main-container{
+        width: 360px;
+    }
+    .banner{
+        width: 360px;
+        height: 60px;
+    }
+    #task{
+        position: absolute;
+        left: 12px;
+        font-size: 24px;
+        margin-top: 0.5px;
+    }
+    #list{
+        position: absolute;
+        left: 80px;
+        font-size: 24px;
+        margin-top: 0.5px;
+    }
+    .add-new{
+        display: none;
+    }
+    #circleplus{
+        position: absolute;
+        top: 80px;
+        left: 160px;
+    }
+    
+    .card-1{
+        width: 336px;
+        height: 360px;
+        position: absolute;
+        left: 12px;
+        top: 150px;
+    }
+    #back{
+        position: absolute;
+        top: 87px;
+        left: 50px;
+        font-size: 20px;
+}
+#back-arrow{
+    font-size: 35px;
+    position: absolute;
+    top: 83px;
+    left: 12px;
+}
+}

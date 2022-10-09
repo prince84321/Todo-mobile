@@ -1,0 +1,409 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width: 1366px;
+    height: 1368px;
+    margin: 60px;
+    background-color: #F7F7F7;
+    position: relative;
+    border: 0px solid gray;
+    box-shadow: 1px 1px 3px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 1366px;
+    height: 94px;
+    background-color: #FFFFFF;
+    position: relative;
+    border: 0px solid gray;
+    box-shadow: 0.5px 0.5px 1px gray;
+}
+#task{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+color: #424242;
+font-weight: bold;
+position: absolute;
+top: 23px;
+left: 137px;
+text-align: left;
+}
+#list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #00A5EC;
+    font-weight: bold;
+    position: absolute;
+    top: 23px;
+    left: 250px;
+    text-align: left;
+    }
+.add-new{
+    width: 150px;
+    height: 126px;
+    color: #424242;
+    font-size: 22px;
+    position: absolute;
+    top: 142px;
+    left: 1072px;
+}
+/* .add.add-new:hover{
+    cursor: pointer;
+} */
+#circleplus{
+    position: absolute;
+    top: 130px;
+    left: 1011px;
+}
+
+#circleplus:hover{
+cursor:pointer;
+}
+
+.card-1{
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: absolute;
+    top: 220px;
+    left: 139px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#paris{
+    width:114px ;
+    height: 24px;
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+#paris:hover{
+    cursor: pointer;
+}
+#check-box{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+/* #check-box:hover{
+    cursor: pointer;
+} */
+#church{
+    width: 103px;
+    height: 21px;
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping{
+    width: 81px;
+    height: 21px;
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+.card-2{
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: absolute;
+    top: 220px;
+    left: 506px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+#paris1{
+    /* width:114px ;
+    height: 24px; */
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+#check-box1{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+#church1{
+    /* width: 103px;
+    height: 21px; */
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square1{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping1{
+    /* width: 81px;
+    height: 21px; */
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+.card-3{
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: absolute;
+    top: 220px;
+    left: 874px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+#paris2{
+    /* width:114px ;
+    height: 24px; */
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+#check-box2{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+#church2{
+    /* width: 103px;
+    height: 21px; */
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square2{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping2{
+    /* width: 81px;
+    height: 21px; */
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+.card-4{
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: absolute;
+    top: 596px;
+    left: 139px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+#paris3{
+    /* width:114px ;
+    height: 24px; */
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+#check-box3{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+#church3{
+    /* width: 103px;
+    height: 21px; */
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square3{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping3{
+    /* width: 81px;
+    height: 21px; */
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+.card-5{
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: absolute;
+    top: 596px;
+    left: 507px;
+    border-radius: 10px;
+    border:1px solid #EDEDED ;
+    box-shadow: 1px 1px 5px gray;
+}
+#paris4{
+    /* width:114px ;
+    height: 24px; */
+    color:#00A5EC ;
+    font-size: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 34px;
+    left: 30px;
+}
+#check-box4{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+#church4{
+    /* width: 103px;
+    height: 21px; */
+    position: absolute;
+    top: 120px;
+    left: 73px; 
+    text-decoration: line-through;
+}
+#box-square4{
+    width: 30px;
+    height: 30px;
+    color: #F7F7F7;
+    border: 1px solid #EDEDED;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+#shopping4{
+    width: 81px;
+    height: 21px;
+    font-size: 18px;
+    color: #424242;
+    position: absolute;
+    top: 175px;
+    left: 73px;
+}
+@media screen and (max-width: 620px) {
+    .main-container{
+        width: 360px;
+    }
+    .banner{
+        width: 360px;
+        height: 60px;
+    }
+    #task{
+        position: absolute;
+        left: 12px;
+        font-size: 24px;
+        margin-top: 0.5px;
+    }
+    #list{
+        position: absolute;
+        left: 80px;
+        font-size: 24px;
+        margin-top: 0.5px;
+    }
+    .add-new{
+        display: none;
+    }
+    #circleplus{
+        position: absolute;
+        top: 80px;
+        left: 160px;
+    }
+    
+    .card-1{
+        width: 336px;
+        height: 360px;
+        position: absolute;
+        left: 12px;
+        top: 150px;
+}
+.card-2{
+    width: 336px;
+    height: 360px;
+    position: absolute;
+    left: 12px;
+    top: 520px;
+}
+.card-3{
+    width: 336px;
+    height: 360px;
+    position: absolute;
+    left: 12px;
+    top: 890px;
+    display: none;
+}
+.card-4{
+    width: 336px;
+    height: 360px;
+    position: absolute;
+    left: 12px;
+    top: 890px;
+    
+}
+.card-5{
+    width: 336px;
+    height: 360px;
+    position: absolute;
+    left: 12px;
+    top: 150px;
+    display: none;
+}
+}
